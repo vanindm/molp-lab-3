@@ -1,0 +1,55 @@
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 134 rows; 143 cols; 594 nonzeros; 132 integer variables (132 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [4e+00, 9e+01]
+  Bound   [1e+00, 1e+01]
+  RHS     [1e+00, 1e+01]
+Presolving model
+134 rows, 143 cols, 594 nonzeros  0s
+134 rows, 143 cols, 594 nonzeros  0s
+Presolve reductions: rows 134(-0); columns 143(-0); nonzeros 594(-0) - Not reduced
+Objective function is integral with scale 100
+
+Solving MIP model with:
+   134 rows
+   143 cols (132 binary, 0 integer, 0 implied int., 11 continuous, 0 domain fixed)
+   594 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ J       0       0         0   0.00%   -inf            560.98             Large        0      0      0         0     0.0s
+         0       0         0   0.00%   278.8109091     560.98            50.30%        0      0      0        48     0.0s
+ L       0       0         0   0.00%   329.98          330.08             0.03%     1005     54      0       276     0.2s
+
+84.1% inactive integer columns, restarting
+Model after restart has 8 rows, 8 cols (0 bin., 0 int., 0 impl., 8 cont., 0 dom.fix.), and 16 nonzeros
+
+         0       0         0   0.00%   329.98          330.08             0.03%        0      0      0       514     0.2s
+         1       0         1 100.00%   330.08          330.08             0.00%        0      0      0       519     0.2s
+
+Solving report
+  Status            Optimal
+  Primal bound      330.08
+  Dual bound        330.08
+  Gap               0%
+  P-D integral      0.064044149284
+  Solution status   feasible
+                    330.08 (objective)
+                    0 (bound viol.)
+                    8.881784197e-16 (int. viol.)
+                    0 (row viol.)
+  Timing            0.17
+  Max sub-MIP depth 2
+  Nodes             1
+  Repair LPs        0
+  LP iterations     519
+                    0 (strong br.)
+                    233 (separation)
+                    233 (heuristics)

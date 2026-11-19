@@ -1,0 +1,7 @@
+scenario,formulation,lp_obj
+base,MTZ,271.6883
+base,flow,273.2509
+deficit,MTZ,278.0517
+deficit,flow,284.3745
+stress,MTZ,288.73
+stress,flow,304.5709

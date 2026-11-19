@@ -1,0 +1,72 @@
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 1562 rows; 1599 cols; 7566 nonzeros; 1560 integer variables (1560 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 1e+03]
+  Cost    [2e+00, 1e+02]
+  Bound   [1e+00, 4e+01]
+  RHS     [1e+00, 1e+03]
+Presolving model
+1562 rows, 1599 cols, 7566 nonzeros  0s
+1562 rows, 1599 cols, 7566 nonzeros  0s
+Presolve reductions: rows 1562(-0); columns 1599(-0); nonzeros 7566(-0) - Not reduced
+Objective function is integral with scale 100
+
+Solving MIP model with:
+   1562 rows
+   1599 cols (1560 binary, 0 integer, 0 implied int., 39 continuous, 0 domain fixed)
+   7566 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0     0.1s
+         0       0         0   0.00%   421.0094872     inf                  inf        0      0      0       131     0.1s
+ L       0       0         0   0.00%   487.83          635.63            23.25%     2114    135     93       660     4.3s
+ L       0       0         0   0.00%   487.83          531.49             8.21%     2114    135     93      1998     6.6s
+
+32.6% inactive integer columns, restarting
+Model after restart has 1111 rows, 1091 cols (1052 bin., 0 int., 0 impl., 39 cont., 0 dom.fix.), and 5197 nonzeros
+
+         0       0         0   0.00%   487.83          531.49             8.21%       48      0      0      3657     6.7s
+         0       0         0   0.00%   487.83          531.49             8.21%       48     25      4      3726     6.7s
+         0       0         0   0.00%   487.83          531.49             8.21%     2307     50      4      7217    12.0s
+ L       0       0         0   0.00%   487.83          529.53             7.87%     2281     50      4      7217    14.4s
+ B      22       0        10  79.69%   487.83          529.19             7.82%     2309     50    779     14869    15.6s
+ T     102       1        48  87.50%   521.9212821     524.77             0.54%     2453     63   2838     32085    18.9s
+
+Restarting search from the root node
+Model after restart has 70 rows, 55 cols (38 bin., 0 int., 0 impl., 17 cont., 0 dom.fix.), and 234 nonzeros
+
+       135       0         0   0.00%   522.2517094     524.77             0.48%       30      0      0     37026    19.7s
+
+23.7% inactive integer columns, restarting
+Model after restart has 53 rows, 39 cols (23 bin., 0 int., 0 impl., 16 cont., 0 dom.fix.), and 167 nonzeros
+
+       135       0         0   0.00%   522.9720513     524.77             0.34%        4      0      0     37058    19.7s
+       135       0         0   0.00%   522.9720513     524.77             0.34%        4      4      0     37081    19.7s
+       136       0         1 100.00%   524.77          524.77             0.00%       82      7      1     37116    19.7s
+
+Solving report
+  Status            Optimal
+  Primal bound      524.77
+  Dual bound        524.77
+  Gap               0%
+  P-D integral      1.51738302912
+  Solution status   feasible
+                    524.77 (objective)
+                    0 (bound viol.)
+                    2.04281036531e-14 (int. viol.)
+                    0 (row viol.)
+  Timing            19.70
+  Max sub-MIP depth 7
+  Nodes             136
+  Repair LPs        0
+  LP iterations     37116
+                    23809 (strong br.)
+                    934 (separation)
+                    8043 (heuristics)

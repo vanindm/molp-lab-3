@@ -1,0 +1,672 @@
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 134 rows; 143 cols; 594 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [4e+00, 9e+01]
+  Bound   [1e+00, 1e+01]
+  RHS     [1e+00, 1e+01]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+134 rows, 143 cols, 594 nonzeros  0s
+Dependent equations search running on 24 equations with time limit of 1.20s
+Dependent equations search removed 1 rows and 11 nonzeros in 0.00s (limit = 1.20s)
+133 rows, 143 cols, 583 nonzeros  0s
+Presolve reductions: rows 133(-1); columns 143(-0); nonzeros 583(-11) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     9.0449074357e-05 Pr: 23(46) 0s
+         40     2.7168833333e+02 Pr: 0(0); Du: 0(7.10543e-15) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 40
+Objective value     :  2.7168833333e+02
+P-D objective error :  3.1325783602e-16
+HiGHS run time      :          0.00
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 168 rows; 264 cols; 792 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [4e+00, 9e+01]
+  Bound   [1e+00, 1e+01]
+  RHS     [1e+00, 1e+01]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+168 rows, 264 cols, 792 nonzeros  0s
+Dependent equations search running on 24 equations with time limit of 1.20s
+Dependent equations search removed 2 rows and 42 nonzeros in 0.00s (limit = 1.20s)
+145 rows, 243 cols, 816 nonzeros  0s
+Presolve reductions: rows 145(-23); columns 243(-21); nonzeros 816(+24) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+        106     2.7325090909e+02 Pr: 0(0); Du: 0(5.77316e-15) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 106
+Objective value     :  2.7325090909e+02
+P-D objective error :  1.0382325131e-16
+HiGHS run time      :          0.00
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 134 rows; 143 cols; 594 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [4e+00, 9e+01]
+  Bound   [1e+00, 1e+01]
+  RHS     [1e+00, 1e+01]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+134 rows, 143 cols, 594 nonzeros  0s
+Dependent equations search running on 24 equations with time limit of 1.20s
+Dependent equations search removed 1 rows and 11 nonzeros in 0.00s (limit = 1.20s)
+133 rows, 143 cols, 583 nonzeros  0s
+Presolve reductions: rows 133(-1); columns 143(-0); nonzeros 583(-11) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     9.0449074357e-05 Pr: 23(46) 0s
+         46     2.7805166667e+02 Pr: 0(0) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 46
+Objective value     :  2.7805166667e+02
+P-D objective error :  2.0406777508e-16
+HiGHS run time      :          0.00
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 168 rows; 264 cols; 792 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [4e+00, 9e+01]
+  Bound   [1e+00, 1e+01]
+  RHS     [1e+00, 1e+01]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+168 rows, 264 cols, 792 nonzeros  0s
+Dependent equations search running on 24 equations with time limit of 1.20s
+Dependent equations search removed 2 rows and 42 nonzeros in 0.00s (limit = 1.20s)
+145 rows, 243 cols, 816 nonzeros  0s
+Presolve reductions: rows 145(-23); columns 243(-21); nonzeros 816(+24) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+        109     2.8437454545e+02 Pr: 0(0); Du: 0(7.10543e-15) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 109
+Objective value     :  2.8437454545e+02
+P-D objective error :  9.9769213796e-17
+HiGHS run time      :          0.00
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 134 rows; 143 cols; 594 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [4e+00, 1e+06]
+  Bound   [1e+00, 1e+01]
+  RHS     [1e+00, 1e+01]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+134 rows, 143 cols, 594 nonzeros  0s
+Dependent equations search running on 24 equations with time limit of 1.20s
+Dependent equations search removed 1 rows and 11 nonzeros in 0.00s (limit = 1.20s)
+133 rows, 143 cols, 583 nonzeros  0s
+Presolve reductions: rows 133(-1); columns 143(-0); nonzeros 583(-11) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     5.2440307537e-05 Pr: 23(46) 0s
+         38     2.8873000000e+02 Pr: 0(0); Du: 0(5.32907e-15) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 38
+Objective value     :  2.8873000000e+02
+P-D objective error :  9.8266809910e-17
+HiGHS run time      :          0.00
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 168 rows; 264 cols; 792 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [4e+00, 1e+06]
+  Bound   [1e+00, 1e+01]
+  RHS     [1e+00, 1e+01]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+168 rows, 264 cols, 792 nonzeros  0s
+Dependent equations search running on 24 equations with time limit of 1.20s
+Dependent equations search removed 2 rows and 42 nonzeros in 0.00s (limit = 1.20s)
+145 rows, 243 cols, 816 nonzeros  0s
+Presolve reductions: rows 145(-23); columns 243(-21); nonzeros 816(+24) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+        122     3.0457090909e+02 Pr: 0(0); Du: 0(1.16764e-10) 0s
+        122     3.0457090909e+02 Pr: 0(0); Du: 0(1.16764e-10) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 122
+Objective value     :  3.0457090909e+02
+P-D objective error :  9.3164272907e-17
+HiGHS run time      :          0.00
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 92 rows; 99 cols; 396 nonzeros; 90 integer variables (90 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [4e+00, 8e+01]
+  Bound   [1e+00, 9e+00]
+  RHS     [1e+00, 9e+00]
+Presolving model
+92 rows, 99 cols, 396 nonzeros  0s
+92 rows, 99 cols, 396 nonzeros  0s
+Presolve reductions: rows 92(-0); columns 99(-0); nonzeros 396(-0) - Not reduced
+Objective function is integral with scale 100
+
+Solving MIP model with:
+   92 rows
+   99 cols (90 binary, 0 integer, 0 implied int., 9 continuous, 0 domain fixed)
+   396 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ J       0       0         0   0.00%   -inf            350.54             Large        0      0      0         0     0.0s
+         0       0         0   0.00%   191.3355556     350.54            45.42%        0      0      0        33     0.0s
+ L       0       0         0   0.00%   236.05          238.04             0.84%      511     39      2       143     0.1s
+
+67.8% inactive integer columns, restarting
+         0       0         0   0.00%   238.04          238.04             0.00%        0     62      0       264     0.1s
+
+Solving report
+  Status            Optimal
+  Primal bound      238.04
+  Dual bound        238.04
+  Gap               0%
+  P-D integral      0.0274092510783
+  Solution status   feasible
+                    238.04 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.10
+  Max sub-MIP depth 2
+  Nodes             0
+  Repair LPs        0
+  LP iterations     264
+                    0 (strong br.)
+                    117 (separation)
+                    114 (heuristics)
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 92 rows; 99 cols; 396 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [4e+00, 8e+01]
+  Bound   [1e+00, 9e+00]
+  RHS     [1e+00, 9e+00]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+92 rows, 99 cols, 396 nonzeros  0s
+Dependent equations search running on 20 equations with time limit of 1.20s
+Dependent equations search removed 1 rows and 9 nonzeros in 0.00s (limit = 1.20s)
+91 rows, 99 cols, 387 nonzeros  0s
+Presolve reductions: rows 91(-1); columns 99(-0); nonzeros 387(-9) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     7.3073280725e-05 Pr: 19(38) 0s
+         34     1.9008400000e+02 Pr: 0(0); Du: 0(5.32907e-15) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 34
+Objective value     :  1.9008400000e+02
+P-D objective error :  2.2369435076e-16
+HiGHS run time      :          0.00
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 120 rows; 180 cols; 540 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 9e+00]
+  Cost    [4e+00, 8e+01]
+  Bound   [1e+00, 9e+00]
+  RHS     [1e+00, 9e+00]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+120 rows, 180 cols, 540 nonzeros  0s
+Dependent equations search running on 20 equations with time limit of 1.20s
+Dependent equations search removed 2 rows and 34 nonzeros in 0.00s (limit = 1.20s)
+107 rows, 169 cols, 554 nonzeros  0s
+Presolve reductions: rows 107(-13); columns 169(-11); nonzeros 554(+14) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+         70     1.9188444444e+02 Pr: 0(0); Du: 0(5.32907e-15) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 70
+Objective value     :  1.9188444444e+02
+P-D objective error :  7.3866963393e-17
+HiGHS run time      :          0.00
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 134 rows; 143 cols; 594 nonzeros; 132 integer variables (132 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [4e+00, 9e+01]
+  Bound   [1e+00, 1e+01]
+  RHS     [1e+00, 1e+01]
+Presolving model
+134 rows, 143 cols, 594 nonzeros  0s
+134 rows, 143 cols, 594 nonzeros  0s
+Presolve reductions: rows 134(-0); columns 143(-0); nonzeros 594(-0) - Not reduced
+Objective function is integral with scale 100
+
+Solving MIP model with:
+   134 rows
+   143 cols (132 binary, 0 integer, 0 implied int., 11 continuous, 0 domain fixed)
+   594 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ J       0       0         0   0.00%   -inf            560.98             Large        0      0      0         0     0.0s
+         0       0         0   0.00%   272.3127273     560.98            51.46%        0      0      0        40     0.0s
+ L       0       0         0   0.00%   316             317.99             0.63%      864     37      0       218     0.2s
+
+75.8% inactive integer columns, restarting
+         0       0         0   0.00%   317.99          317.99             0.00%        0    100      0       484     0.2s
+
+Solving report
+  Status            Optimal
+  Primal bound      317.99
+  Dual bound        317.99
+  Gap               0%
+  P-D integral      0.0775118163452
+  Solution status   feasible
+                    317.99 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.20
+  Max sub-MIP depth 3
+  Nodes             0
+  Repair LPs        0
+  LP iterations     484
+                    0 (strong br.)
+                    182 (separation)
+                    262 (heuristics)
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 134 rows; 143 cols; 594 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [4e+00, 9e+01]
+  Bound   [1e+00, 1e+01]
+  RHS     [1e+00, 1e+01]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+134 rows, 143 cols, 594 nonzeros  0s
+Dependent equations search running on 24 equations with time limit of 1.20s
+Dependent equations search removed 1 rows and 11 nonzeros in 0.00s (limit = 1.20s)
+133 rows, 143 cols, 583 nonzeros  0s
+Presolve reductions: rows 133(-1); columns 143(-0); nonzeros 583(-11) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     9.0449074357e-05 Pr: 23(46) 0s
+         40     2.7168833333e+02 Pr: 0(0); Du: 0(7.10543e-15) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 40
+Objective value     :  2.7168833333e+02
+P-D objective error :  3.1325783602e-16
+HiGHS run time      :          0.00
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 168 rows; 264 cols; 792 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+01]
+  Cost    [4e+00, 9e+01]
+  Bound   [1e+00, 1e+01]
+  RHS     [1e+00, 1e+01]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+168 rows, 264 cols, 792 nonzeros  0s
+Dependent equations search running on 24 equations with time limit of 1.20s
+Dependent equations search removed 2 rows and 42 nonzeros in 0.00s (limit = 1.20s)
+145 rows, 243 cols, 816 nonzeros  0s
+Presolve reductions: rows 145(-23); columns 243(-21); nonzeros 816(+24) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+        106     2.7325090909e+02 Pr: 0(0); Du: 0(5.77316e-15) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 106
+Objective value     :  2.7325090909e+02
+P-D objective error :  1.0382325131e-16
+HiGHS run time      :          0.00
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 382 rows; 399 cols; 1786 nonzeros; 380 integer variables (380 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+01]
+  Cost    [4e+00, 9e+01]
+  Bound   [1e+00, 2e+01]
+  RHS     [1e+00, 2e+01]
+Presolving model
+382 rows, 399 cols, 1786 nonzeros  0s
+382 rows, 399 cols, 1786 nonzeros  0s
+Presolve reductions: rows 382(-0); columns 399(-0); nonzeros 1786(-0) - Not reduced
+Objective function is integral with scale 100
+
+Solving MIP model with:
+   382 rows
+   399 cols (380 binary, 0 integer, 0 implied int., 19 continuous, 0 domain fixed)
+   1786 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0     0.0s
+         0       0         0   0.00%   276.2968421     inf                  inf        0      0      0        69     0.0s
+ R       0       0         0   0.00%   344.39          530.02            35.02%      631     60      6       197     0.1s
+ L       0       0         0   0.00%   344.39          469.29            26.61%     1495     60      6       325     0.9s
+ L       0       0         0   0.00%   344.39          404.38            14.84%     1495     60      6      1146     1.3s
+
+2.9% inactive integer columns, restarting
+Model after restart has 374 rows, 388 cols (369 bin., 0 int., 0 impl., 19 cont., 0 dom.fix.), and 1740 nonzeros
+
+         0       0         0   0.00%   344.39          404.38            14.84%       21      0      0      2075     1.3s
+         0       0         0   0.00%   344.39          404.38            14.84%       21     18      4      2119     1.4s
+ L       0       0         0   0.00%   344.39          384.5             10.43%      661     62      4      2222     2.1s
+
+16.3% inactive integer columns, restarting
+Model after restart has 324 rows, 328 cols (309 bin., 0 int., 0 impl., 19 cont., 0 dom.fix.), and 1470 nonzeros
+
+         0       0         0   0.00%   344.39          384.5             10.43%       20      0      0      4110     2.5s
+         0       0         0   0.00%   344.39          384.5             10.43%       20     18      2      4151     2.5s
+ L       0       0         0   0.00%   344.39          364.7              5.57%      403     17      2      6354     4.0s
+
+Restarting search from the root node
+Model after restart has 59 rows, 41 cols (23 bin., 0 int., 0 impl., 18 cont., 0 dom.fix.), and 195 nonzeros
+
+       247       0         0   0.00%   363.1578947     364.7              0.42%       36      0      0     26394     6.5s
+       247       0         0   0.00%   363.1578947     364.7              0.42%       36      6      7     26447     6.5s
+
+13.0% inactive integer columns, restarting
+Model after restart has 44 rows, 30 cols (12 bin., 0 int., 0 impl., 18 cont., 0 dom.fix.), and 153 nonzeros
+
+       247       0         0   0.00%   363.1578947     364.7              0.42%        4      0      0     26603     6.5s
+       247       0         0   0.00%   363.1578947     364.7              0.42%        4      4      0     26641     6.5s
+       248       0         1 100.00%   364.7           364.7              0.00%      125     18      0     26722     6.5s
+
+Solving report
+  Status            Optimal
+  Primal bound      364.7
+  Dual bound        364.7
+  Gap               0%
+  P-D integral      0.81768990266
+  Solution status   feasible
+                    364.7 (objective)
+                    0 (bound viol.)
+                    7.77156117238e-15 (int. viol.)
+                    0 (row viol.)
+  Timing            6.53
+  Max sub-MIP depth 4
+  Nodes             248
+  Repair LPs        0
+  LP iterations     26722
+                    13337 (strong br.)
+                    1375 (separation)
+                    7036 (heuristics)
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 382 rows; 399 cols; 1786 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 2e+01]
+  Cost    [4e+00, 9e+01]
+  Bound   [1e+00, 2e+01]
+  RHS     [1e+00, 2e+01]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+382 rows, 399 cols, 1786 nonzeros  0s
+Dependent equations search running on 40 equations with time limit of 1.20s
+Dependent equations search removed 1 rows and 19 nonzeros in 0.00s (limit = 1.20s)
+381 rows, 399 cols, 1767 nonzeros  0s
+Presolve reductions: rows 381(-1); columns 399(-0); nonzeros 1767(-19) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     1.7366767149e-04 Pr: 39(116) 0s
+         70     2.7593300000e+02 Pr: 0(0) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 70
+Objective value     :  2.7593300000e+02
+P-D objective error :  1.0281590632e-16
+HiGHS run time      :          0.00
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 440 rows; 760 cols; 2280 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 2e+01]
+  Cost    [4e+00, 9e+01]
+  Bound   [1e+00, 2e+01]
+  RHS     [1e+00, 2e+01]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+440 rows, 760 cols, 2280 nonzeros  0s
+Dependent equations search running on 60 equations with time limit of 1.20s
+Dependent equations search removed 2 rows and 57 nonzeros in 0.00s (limit = 1.20s)
+419 rows, 741 cols, 2185 nonzeros  0s
+Presolve reductions: rows 419(-21); columns 741(-19); nonzeros 2185(-95) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+        285     3.0095368421e+02 Pr: 0(0); Du: 0(1.11022e-15) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 285
+Objective value     :  3.0095368421e+02
+P-D objective error :  1.8856435279e-16
+HiGHS run time      :          0.01
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 1562 rows; 1599 cols; 7566 nonzeros; 1560 integer variables (1560 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 4e+01]
+  Cost    [2e+00, 1e+02]
+  Bound   [1e+00, 4e+01]
+  RHS     [1e+00, 4e+01]
+Presolving model
+1562 rows, 1599 cols, 7566 nonzeros  0s
+1562 rows, 1599 cols, 7566 nonzeros  0s
+Presolve reductions: rows 1562(-0); columns 1599(-0); nonzeros 7566(-0) - Not reduced
+Objective function is integral with scale 100
+
+Solving MIP model with:
+   1562 rows
+   1599 cols (1560 binary, 0 integer, 0 implied int., 39 continuous, 0 domain fixed)
+   7566 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0     0.1s
+         0       0         0   0.00%   421.0094872     inf                  inf        0      0      0       131     0.1s
+ L       0       0         0   0.00%   487.83          635.63            23.25%     2114    135     93       660     4.3s
+ L       0       0         0   0.00%   487.83          531.49             8.21%     2114    135     93      1998     6.6s
+
+32.6% inactive integer columns, restarting
+Model after restart has 1111 rows, 1091 cols (1052 bin., 0 int., 0 impl., 39 cont., 0 dom.fix.), and 5197 nonzeros
+
+         0       0         0   0.00%   487.83          531.49             8.21%       48      0      0      3657     6.6s
+         0       0         0   0.00%   487.83          531.49             8.21%       48     25      4      3726     6.6s
+         0       0         0   0.00%   487.83          531.49             8.21%     2307     50      4      7217    12.0s
+ L       0       0         0   0.00%   487.83          529.53             7.87%     2281     50      4      7217    14.4s
+ B      22       0        10  79.69%   487.83          529.19             7.82%     2309     50    779     14869    15.5s
+ T     102       1        48  87.50%   521.9212821     524.77             0.54%     2453     63   2838     32085    18.8s
+
+Restarting search from the root node
+Model after restart has 70 rows, 55 cols (38 bin., 0 int., 0 impl., 17 cont., 0 dom.fix.), and 234 nonzeros
+
+       135       0         0   0.00%   522.2517094     524.77             0.48%       30      0      0     37026    19.6s
+
+23.7% inactive integer columns, restarting
+Model after restart has 53 rows, 39 cols (23 bin., 0 int., 0 impl., 16 cont., 0 dom.fix.), and 167 nonzeros
+
+       135       0         0   0.00%   522.9720513     524.77             0.34%        4      0      0     37058    19.6s
+       135       0         0   0.00%   522.9720513     524.77             0.34%        4      4      0     37081    19.6s
+       136       0         1 100.00%   524.77          524.77             0.00%       82      7      1     37116    19.6s
+
+Solving report
+  Status            Optimal
+  Primal bound      524.77
+  Dual bound        524.77
+  Gap               0%
+  P-D integral      1.51125707304
+  Solution status   feasible
+                    524.77 (objective)
+                    0 (bound viol.)
+                    2.04281036531e-14 (int. viol.)
+                    0 (row viol.)
+  Timing            19.61
+  Max sub-MIP depth 7
+  Nodes             136
+  Repair LPs        0
+  LP iterations     37116
+                    23809 (strong br.)
+                    934 (separation)
+                    8043 (heuristics)
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 1562 rows; 1599 cols; 7566 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 4e+01]
+  Cost    [2e+00, 1e+02]
+  Bound   [1e+00, 4e+01]
+  RHS     [1e+00, 4e+01]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+1562 rows, 1599 cols, 7566 nonzeros  0s
+Dependent equations search running on 80 equations with time limit of 1.20s
+Dependent equations search removed 1 rows and 39 nonzeros in 0.00s (limit = 1.20s)
+1561 rows, 1599 cols, 7527 nonzeros  0s
+Presolve reductions: rows 1561(-1); columns 1599(-0); nonzeros 7527(-39) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     1.8039964711e-04 Pr: 79(314) 0s
+        131     4.2092600000e+02 Pr: 0(0); Du: 0(1.33227e-15) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 131
+Objective value     :  4.2092600000e+02
+P-D objective error :  6.7441755920e-17
+HiGHS run time      :          0.02
+Running HiGHS 1.12.0 (git hash: 4f96ee8): Copyright (c) 2025 HiGHS under MIT licence terms
+LP has 1680 rows; 3120 cols; 9360 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 4e+01]
+  Cost    [2e+00, 1e+02]
+  Bound   [1e+00, 4e+01]
+  RHS     [1e+00, 4e+01]
+WARNING: No semi-integer/integer variables in model with non-empty integrality
+Presolving model
+1680 rows, 3120 cols, 9360 nonzeros  0s
+Dependent equations search running on 120 equations with time limit of 1.20s
+Dependent equations search removed 2 rows and 117 nonzeros in 0.00s (limit = 1.20s)
+1639 rows, 3081 cols, 9165 nonzeros  0s
+Presolve reductions: rows 1639(-41); columns 3081(-39); nonzeros 9165(-195) 
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+       1225     4.4620974359e+02 Pr: 0(0); Du: 0(7.10543e-15) 0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 1225
+Objective value     :  4.4620974359e+02
+P-D objective error :  3.1812278373e-16
+HiGHS run time      :          0.10
+=== ЛР-3, вариант 9 (TSP, потоковая формулировка), seed=10204, n=12 ===
+
+данные: /home/deeg05/mephi/molp-lab-3/data/tsp_12.json
+
+--- сценарий base: базовая матрица расстояний
+    MILP: 317.99 (0.205 с), LP: 271.69, gap: 14.56%, жадный: 321.34 (gap 1.05%)
+--- сценарий deficit: севернее y=60 дуги дороже в 1.4 раз (9 дуг)
+    MILP: 330.08 (0.174 с), LP: 278.05, gap: 15.76%, жадный: 330.08 (gap -0.00%)
+--- сценарий stress: север дороже в 2 раза (9 дуг); перекрыты дуги: 0->1; 6->11
+    MILP: 345.05 (0.585 с), LP: 288.73, gap: 16.32%, жадный: 345.05 (gap 0.00%)
+
+--- анализ big-M (MTZ, масштаб n=40)
+    M=40: obj=524.77, 19.851 с, узлов=136
+    M=1000: obj=524.77, 19.732 с, узлов=136
+
+--- кривая масштаба (10, 12, 20, 40 вершин)
+ n  milp_obj  milp_time_s  milp_nodes  lp_mtz_obj  lp_mtz_time_s  lp_flow_obj  lp_flow_time_s  integrality_gap
+10    238.04       0.1026           0  190.084000         0.0036   191.884444          0.0053         0.193898
+12    317.99       0.2007           0  271.688333         0.0045   273.250909          0.0076         0.140693
+20    364.70       6.5337         248  275.933000         0.0106   300.953684          0.0216         0.174791
+40    524.77      19.6454         136  420.926000         0.0505   446.209744          0.1699         0.149704
+
+результаты: /home/deeg05/mephi/molp-lab-3/outputs/results
+логи HiGHS: /home/deeg05/mephi/molp-lab-3/outputs/logs
+графики: /home/deeg05/mephi/molp-lab-3/outputs/figures
